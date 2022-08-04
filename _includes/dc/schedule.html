@@ -14,12 +14,12 @@ The schedule for the different curricula are listed here:
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>Before Starting</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a></td> </tr>
-      <tr> <td>09:00</td>  
+      <tr> <td>09:00</td>
         <td>
           <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/index.html">
             Setup and introduction to working with OpenRefine
           </a>
-        </td> 
+        </td>
       </tr>
       <tr> <td>10:30</td>  <td>Morning break</td> </tr>
       <tr> <td>11:00</td>  <td>
@@ -31,8 +31,8 @@ The schedule for the different curricula are listed here:
         <td>
           <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html">Scripts from OpenRefine</a> <br>
           <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/05-save-export/index.html">Exporting and Saving Data from OpenRefine<\a>
-        </td> 
-           
+        </td>
+
       </tr>
       <tr> <td>14:00</td>  <td>Close of Day 1</td> </tr>
     </table>
@@ -54,12 +54,12 @@ The schedule for the different curricula are listed here:
     <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>Before Starting</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a></td> </tr>
-      <tr> <td>09:00</td>  
+      <tr> <td>09:00</td>
         <td>
           <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/00-getting-started/index.html">
             Setup and introduction to working with OpenRefine
           </a>
-        </td> 
+        </td>
       </tr>
       <tr> <td>10:30</td>  <td>Morning break</td> </tr>
       <tr> <td>11:00</td>  <td>
@@ -70,8 +70,8 @@ The schedule for the different curricula are listed here:
       <tr> <td>13:00</td>
         <td>
           <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html">Scripts from OpenRefine</a> <br>
-          <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/05-save-export/index.html">Exporting and Saving Data from OpenRefine<\a>
-        </td> 
+          <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/05-save-export/index.html">Exporting and Saving Data from OpenRefine</a>
+        </td>
       </tr>
       <tr> <td>14:00</td>  <td>Close of Day 1</td> </tr>
     </table>
@@ -79,25 +79,61 @@ The schedule for the different curricula are listed here:
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
+      <tr> <td>Before Starting</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a></td> </tr>
+      <tr> <td>09:00</td>
         <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
+          <a href="https://datacarpentry.org/python-ecology-lesson/setup.html">
+            Setup
+          </a> <br>
+          <a href="https://datacarpentry.org/python-ecology-lesson/00-before-we-start/index.html">
+            Before we start
+          </a>
+          <a href="https://datacarpentry.org/python-ecology-lesson/01-short-introduction-to-Python/index.html">
+            Short Introduction to Programming in Python
+          </a>
         </td>
       </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>11:00</td>  <td>
+        <a href="https://datacarpentry.org/python-ecology-lesson/02-starting-with-data/index.html">Starting with Data</a> <br>
+          <a href="https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/index.html">Indexing, Slicing and Subsetting DataFrames in Python</a> <br>
+        </td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>
+        <td>
+          <a href="https://datacarpentry.org/python-ecology-lesson/04-data-types-and-format/index.html">Data Types and Formats</a> <br>
+        </td>
       </tr>
+      <tr> <td>14:00</td>  <td>Close of Day 2</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr> <td>Before Starting</td>  <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a></td> </tr>
+      <tr> <td>09:00</td>
+        <td>
+          <a href="https://datacarpentry.org/python-ecology-lesson/05-merging-data/index.html">
+            Combining DataFrames with Pandas
+          </a> <br>
+          <a href="https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/index.html">
+            Data Workflow and Automation
+          </a> <br>
+        </td>
+      </tr>
+      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
+      <tr> <td>11:00</td>  <td>
+        <a href="https://datacarpentry.org/python-ecology-lesson/07-visualization-ggplot-python/index.html">Making Plots with Plotnine</a> <br>
+        </td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>
+        <td>
+          <a href="https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html">Accessing SQLite Databases Using Python and Pandas</a> <br>
+        </td>
+      </tr>
+      <tr> <td>14:45</td>  <td>Close of Day 2</td> </tr>
       <tr>
-	<td> </td>
-	<td> END </td>
+        <td>After Workshop</td> <td><a href="{{site.post_survey}}{{site.github.project_title}}">Post-Workshop Survey</a></td>
       </tr>
     </table>
   </div>
