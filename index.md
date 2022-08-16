@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "University of Pennsylvania"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Online ([link](https://carpentries.zoom.us/my/carpentriesroom3)) Password: 202020"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "https://carpentries.zoom.us/my/carpentriesroom3"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -150,9 +150,7 @@ address.
 {% elsif online == "true_public" %}
 <p id="where">
   <strong>Where:</strong>
-  online at <a href="{{page.address}}">{{page.address}}</a>.
-  If you need a password or other information to access the training,
-  the instructor will pass it on to you before the workshop.
+  online at <a href="{{page.address}}">{{page.address}}</a>. Password: 202020.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
